@@ -140,6 +140,6 @@ I care about:
 
 ### ⚡ About Me
 
-**5+ years of experience. Full-stack. Laravel-focused. Quality-driven.**
+**4.5+ years of experience. Full-stack. Laravel-focused. Quality-driven.**
 
 I enjoy work where **backend logic, clean UI, performance, and testing** all come together to make a product that clients can trust.
