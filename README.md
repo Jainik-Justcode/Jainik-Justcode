@@ -1,19 +1,18 @@
-# Hi, I'm Jainik 👋
+# Hi, I'm Jainik Kumbhani 👋
 
 ### Senior Full-Stack Developer @ JustCode Solutions
 
-**4.5+ years of professional experience designing, building, and shipping business applications with Laravel and modern JavaScript.**
+**4.5 years of professional experience building, fixing, and scaling business applications with Laravel and modern JavaScript.**
 
-I build production-ready web apps end to end — **from database design and backend business logic to responsive admin UI, imports, and automated browser testing**.
+I build production-ready web apps end to end — **from database design and financial business logic to responsive V3 admin screens, permissions, audit trails, and testing**.
 
-* 🔨 Currently working on a large-scale **Laravel CRM** — Customers, Leads, Estimates, Invoices, Payments, Dispatch, Projects, and the new **V3 UI**.
-* 🧩 Strong with **Laravel, PHP, MySQL, Livewire, Vue.js, Next.js, JavaScript, jQuery, and REST APIs**.
-* 💳 Deep experience in **estimates, invoicing, payments, tax, discounts, and progress billing** logic.
-* 📥 Built **bulk import features** (Excel/CSV) with validation, preview, error reports, and safe rollback.
-* 📱 Focused on **mobile-first, responsive V3 screens** that match the old UI behaviour 1:1.
-* ⚡ Care about **page performance** — moving fat inline JS/CSS into modules, fewer requests, faster loads.
-* 🧪 Ship with confidence using **Playwright end-to-end tests, PHPUnit, and structured QA test cases**.
-* 🚀 Comfortable across the full lifecycle — **database → backend → API → frontend → testing → release**.
+* 🔨 Working on a large-scale **Laravel CRM** — Customers, Estimates, Invoices, Payments, Credit, Statements, Dispatch, Projects, and the new **V3 UI**.
+* 💳 Built core **billing & payment features** — write-off, refunds, payment re-allocation, customer credit, progress billing, retainage, and deposits.
+* 🔐 Hardened **roles & permissions** — per-module Restore permission, role self-escalation fixes, and permission-aware buttons across all modules.
+* 🧾 Built the **Audit Trail / Activity Log** in V3 with readable detail tables and working **Undo Changes**.
+* 📥 Built **import / export** features — bulk invoice import, Excel exports with column picker, and validated sample templates.
+* 🎨 Migrated many screens to the **V3 UI** — Bookmarks, Purchase Orders, Expenses, Teams, Transactions, Waiting List, Statements, Login pages.
+* 🧪 Strong focus on **QA, regression testing, Playwright, PHPUnit**, and safe production releases.
 
 ---
 
@@ -29,7 +28,6 @@ I build production-ready web apps end to end — **from database design and back
 ### Frontend
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
@@ -41,28 +39,25 @@ I build production-ready web apps end to end — **from database design and back
 ![PHPUnit](https://img.shields.io/badge/PHPUnit-3C9CD7?style=for-the-badge&logo=php&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
-![cPanel](https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white)
 
 ---
 
 ## 💼 Core Expertise
 
-* **Laravel Application Architecture**
-* **REST API Development**
-* **MySQL Schema Design & Query Optimization**
-* **Estimates, Invoices & Billing Systems**
-* **Payment & Financial Calculations**
-* **Excel / CSV Import & Export**
-* **PDF Generation**
-* **Role-Based Permissions**
-* **Queues, Jobs & Scheduled Tasks**
-* **Livewire & Vue.js Frontends**
-* **Responsive / Mobile Admin UI**
-* **DataTables & Server-Side Processing**
-* **Frontend Performance Optimization**
-* **Playwright E2E & PHPUnit Testing**
-* **Git Branching, Code Review & Release Flow**
+* **Laravel Application Development**
+* **Invoicing, Billing & Payment Systems**
+* **Refunds, Credit & Payment Re-allocation**
+* **Progress Billing, Deposits & Retainage**
+* **Tax, Discount & Money Rounding Accuracy**
+* **Roles, Permissions & Access Control**
+* **Audit Trail & Activity Logging (with Undo)**
+* **Excel Import / Export & Validation**
+* **PDF Invoices & Statements**
+* **Bulk Email with Progress Tracking**
+* **V3 UI Migration & Mobile Layouts**
+* **DataTables, Saved Filters & Server-Side Processing**
+* **Query & Page Performance**
+* **Regression & End-to-End Testing**
 
 ---
 
@@ -70,47 +65,53 @@ I build production-ready web apps end to end — **from database design and back
 
 | Project | Contributions |
 | --- | --- |
-| **CRM – Estimates V3** | New estimate UI: customer picker, line items, unit price handling, action permissions, mobile line cards, preview, and terms editing. |
-| **CRM – Invoicing V3** | Invoice list, create, edit, and view screens with correct totals, tax, discounts, and permissions. |
-| **CRM – Employee Invitation Import** | Bulk employee invite from spreadsheet with row validation, duplicate checks, preview, and clear error feedback. |
-| **CRM – Page Optimization** | Moved heavy inline JS/CSS into modular `v3` assets; kept pages fast without breaking tables or AJAX flows. |
-| **CRM – E2E Test Suite** | Playwright smoke tests with video recording, local-first test env, and seeded test data. |
+| **CRM – Invoicing & Billing** | Write Off as a new invoice mode with bad-debt report, refunds on revise/replace, voided-invoice lock, bulk invoice email with live per-invoice checklist, Payment History grouping. |
+| **CRM – Payments & Credit** | Payment re-allocation (V3 modal + searchable invoice picker), one refund engine for all paths, customer credit history and credit refunds, shared `MoneyTolerance` for money checks. |
+| **CRM – Progress Billing** | Fixed draw rounding, percentage drift, deposit coverage, retainage release, and contract overbilling. |
+| **CRM – Statements V3** | Statement listing, KPI tiles, filters, bulk email, PDF fixes, and totals that reconcile with invoices. |
+| **CRM – Roles & Permissions** | Restore permission for every module, closed role self-escalation paths, Root-only role protection, and hid actions users can't use. |
+| **CRM – Audit Trail** | Activity logs for Estimates, Dispatch, Projects, Waiting List, Widgets, Import/Export — shown as field tables with working Undo. |
+| **CRM – Import / Export** | Bulk standard-invoice import with strict row validation; Estimates, Invoices, Services, Expenses, Equipment exports and imports. |
+| **CRM – Estimates V3** | New estimate UI, bulk delete with per-row eligibility, pagination, permissions, mobile layout, and pricing-load guard. |
+| **CRM – V3 UI Migration** | Bookmarks, Purchase Orders, Expenses, Teams, Transactions, Waiting List, Audit Trail, and Login pages; one shared `v3Toast` / `v3Confirm` helper. |
+| **CRM – Dispatch Performance** | Removed per-row requests and heavy loading on the Dispatch Board to stop 500 errors. |
 
 ---
 
 ## 🧪 Engineering & QA
 
-A feature is not done when the happy path works. It is done when it is **tested, correct, and safe to release**.
+A feature is not done when only the happy path works.
 
 My QA approach:
 
-* Written test cases per feature (TC-01, TC-02 …)
 * Functional & regression testing
 * Edge cases and invalid input
 * Permission / role testing
 * Database verification
-* Mobile & responsive checks
+* Calculation and financial accuracy (to the cent)
 * Old UI vs New UI comparison
-* Calculation and financial accuracy
+* Mobile & responsive checks
 * Loading, race-condition, and double-submit checks
 * Playwright E2E + PHPUnit
+
+I focus on finding issues **before they reach production**, especially in money and billing flows.
 
 ---
 
 ## 🏗️ Development Philosophy
 
-> **Small, safe changes. Clear code. Proven by tests.**
+> **Build it correctly, test it thoroughly, and keep it maintainable.**
 
 I care about:
 
-* Minimal, focused commits
+* Small, focused commits
 * Clean and readable code
 * Reusable components
-* Strong validation on the backend
+* Strong backend validation
 * Secure authorization
 * Accurate business logic
 * Performance
-* Clear documentation for the team
+* Production reliability
 
 ---
 
@@ -133,13 +134,13 @@ I care about:
 ## 🤝 Let's Connect
 
 * 💼 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/YOUR-HANDLE)
-* 📧 **Email:** [darshan@justcodesolutions.com](mailto:darshan@justcodesolutions.com)
+* 📧 **Email:** [jainik.kumbhani@justcodesolutions.com](mailto:jainik.kumbhani@justcodesolutions.com)
 * 🌐 **Company:** [JustCode Solutions](https://justcodesolutions.com)
 
 ---
 
 ### ⚡ About Me
 
-**4.5+ years of experience. Full-stack. Laravel-focused. Quality-driven.**
+**4.5 years of experience. Full-stack. Laravel-focused. Billing & business-logic driven. Production-focused.**
 
-I enjoy work where **backend logic, clean UI, performance, and testing** all come together to make a product that clients can trust.
+I enjoy solving complex problems where **backend logic, financial accuracy, permissions, UI, and testing** all need to work together.
