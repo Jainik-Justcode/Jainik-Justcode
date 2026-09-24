@@ -2,7 +2,7 @@
 
 ### Senior Full-Stack Developer @ JustCode Solutions
 
-**5+ years of professional experience designing, building, and shipping business applications with Laravel and modern JavaScript.**
+**4.5+ years of professional experience designing, building, and shipping business applications with Laravel and modern JavaScript.**
 
 I build production-ready web apps end to end — **from database design and backend business logic to responsive admin UI, imports, and automated browser testing**.
 
@@ -133,7 +133,7 @@ I care about:
 ## 🤝 Let's Connect
 
 * 💼 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/YOUR-HANDLE)
-* 📧 **Email:** [your-email@justcodesolutions.com](mailto:your-email@justcodesolutions.com)
+* 📧 **Email:** [your-email@justcodesolutions.com](mailto:darshan@justcodesolutions.com)
 * 🌐 **Company:** [JustCode Solutions](https://justcodesolutions.com)
 
 ---
