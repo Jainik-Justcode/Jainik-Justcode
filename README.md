@@ -133,7 +133,7 @@ I care about:
 ## 🤝 Let's Connect
 
 * 💼 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/YOUR-HANDLE)
-* 📧 **Email:** [your-email@justcodesolutions.com](mailto:darshan@justcodesolutions.com)
+* 📧 **Email:** [darshan@justcodesolutions.com](mailto:darshan@justcodesolutions.com)
 * 🌐 **Company:** [JustCode Solutions](https://justcodesolutions.com)
 
 ---
